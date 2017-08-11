@@ -4,3 +4,6 @@
 ro.sf.lcd_density=160
 ro.lcd_min_brightness=20
 ro.cm.hardware.cabc=/sys/class/mdnie/mdnie/cabc
+
+# EGL blobs crash on screen off
+ro.egl.destroy_after_detach=true
